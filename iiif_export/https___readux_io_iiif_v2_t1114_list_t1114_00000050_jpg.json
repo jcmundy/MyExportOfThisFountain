@@ -1,0 +1,75 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/iiif/v2/t1114/list/t1114_00000050.jpg",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "e0e36ce9-6264-447f-8e62-d205dfb7dbcd",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "annotatedBy": {
+                "name": "OCR"
+            },
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/html",
+                "chars": "<span id='e0e36ce9-6264-447f-8e62-d205dfb7dbcd' class='anno-e0e36ce9-6264-447f-8e62-d205dfb7dbcd' data-letter-spacing='-0.4423076923076923'>/</span>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/t1114/canvas/t1114_00000050.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/t1114/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=3286,1584,13,60",
+                    "item": {
+                        "@type": "oa:FragmentSelector"
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-e0e36ce9-6264-447f-8e62-d205dfb7dbcd: { height: 60px; width: 13px; font-size: 37.5px; letter-spacing: -5.75px;}"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "75cd81fb-d273-4d71-ba26-ebf1ac5ab3ae",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "annotatedBy": {
+                "name": "OCR"
+            },
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/html",
+                "chars": "<span id='75cd81fb-d273-4d71-ba26-ebf1ac5ab3ae' class='anno-75cd81fb-d273-4d71-ba26-ebf1ac5ab3ae' data-letter-spacing='-0.5446428571428571'>\u0645\u0647\u0631</span>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/t1114/canvas/t1114_00000050.jpg",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/t1114/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1962,2881,21,59",
+                    "item": {
+                        "@type": "oa:FragmentSelector"
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-75cd81fb-d273-4d71-ba26-ebf1ac5ab3ae: { height: 59px; width: 21px; font-size: 36.875px; letter-spacing: -11.4375px;}"
+            }
+        }
+    ]
+}
